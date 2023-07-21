@@ -7,7 +7,9 @@ export default function App() {
   return (
     <View style={styles.container}>
       <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <View style={styles.con}>
+        <Text style={styles.text}>Реєстрація</Text>
+      </View>
       </ImageBackground>
       <StatusBar style="auto" />
     </View>
@@ -21,9 +23,21 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    fontSize: 20,
+    fontWeight: 600,
+    color: 'skyblue',
+    textAlign: 'center',
+  },
   image: {
     flex: 1,
     justifyContent: 'center',
     width: 375,
+  },
+  con: {
+    backgroundColor: 'grey',
+    height: 549,
+    width: 375,
+    borderRadius: 25,
   },
 });
