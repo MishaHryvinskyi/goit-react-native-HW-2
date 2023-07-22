@@ -22,6 +22,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    width: 375,
   },
   text: {
     fontSize: 20,
