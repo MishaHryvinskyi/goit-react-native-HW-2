@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { ImageBackground, StyleSheet, Text, View } from 'react-native';
 
-image = require('./image/Photo.png');
+const image = require('./image/Photo.png');
 
 export default function App() {
   return (
